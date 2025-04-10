@@ -6,7 +6,7 @@ export default function Home() {
       </h1>
       <div className="group relative overflow-hidden">
         <div className="transition-opacity opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
-          <p className="text-xl text-white">Hang Tight! We'll be up and running soon.</p>
+          <p className="text-xl text-white">Hang Tight! We will be up and running soon.</p>
         </div>
       </div>
     </div>
