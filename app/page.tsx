@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="bg-gray-900 h-screen flex flex-col justify-center items-center">
-      <h1 className="font-sans text-4xl bg-green-600 rounded-4xl w-xl p-3 text-center text-white shadow-xl animate-bounce">
+    <div className="bg-gray-900 h-screen flex flex-col justify-center items-center px-4">
+      <h1 className="font-sans text-4xl sm:text-3xl md:text-4xl lg:text-5xl bg-green-600 rounded-4xl w-full md:w-auto p-3 text-center text-white shadow-xl animate-bounce">
         🚧 Under Construction 🚧
       </h1>
       <div className="group relative overflow-hidden">
