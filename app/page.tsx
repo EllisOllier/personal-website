@@ -183,7 +183,7 @@ export default function Home() {
                         description="A Next.JS website created to educate people about Green Computing which was created as part of Industrial & Community Engagement unit for university."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/green-computing"
-                        image_path=""
+                        image_path="/images/projects/green-computing.png"
                     />
                     <ProjectCard
                         id="project-four"
