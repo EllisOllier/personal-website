@@ -69,48 +69,88 @@ export default function Home() {
                 <div>
                     <div id="about-title">
                         <h2 className="text-6xl text-center py-5">About</h2>
-                        <Image
-                            className="rounded-4xl"
-                            src="/images/portait.jpg"
-                            width={100}
-                            height={100}
-                            alt="A picture of me!"
-                        />
                     </div>
-                    <div id="about-details">
-                        <p className="">
-                            Second-year BSc (Hons) Software Engineering student
-                            at Manchester Metropolitan University seeking a
-                            12-month Software / Full-Stack / Java Developer /
-                            Back-End placement starting summer 2026. Experience
-                            in leading a six-person team to deliver a full-stack
-                            finance tracker using React, ExpressJS and NodeJS.
-                            Proficient in Java, JavaScript/TypeScript, React,
-                            and Next.js, with developing skills in Vue.js.
-                            Passionate about all aspects of programming,
-                            including building robust systems and impactful web
-                            applications.
-                        </p>
-                    </div>
-                </div>
-                <div id="skills" className="flex mt-10 gap-10 justify-center">
-                    <div id="row-1" className="flex flex-col gap-3">
-                      <SkillCard title="JavaScript" image_path="images/skills/JavaScript.svg"/>
-                      <SkillCard title="TypeScript" image_path="images/skills/TypeScript.svg"/>
-                      <SkillCard title="CSS3" image_path="images/skills/CSS3.svg" />
-                      <SkillCard title="HTML5" image_path="images/skills/HTML5.svg"/>
-                    </div>
-                    <div id="row-2" className="flex flex-col gap-3">
-                      <SkillCard title="React.js" image_path="images/skills/React.svg"/>
-                      <SkillCard title="Next.js" image_path="images/skills/Next.js.svg"/> 
-                      <SkillCard title="Node.js" image_path="images/skills/Node.js.svg"/>
-                      <SkillCard title="Express.js" image_path="images/skills/Express.svg"/>
-                    </div>
-                    <div id="row-3" className="flex flex-col gap-3">
-                      <SkillCard title="TailwindCSS" image_path="images/skills/Tailwind CSS.svg"/>
-                      <SkillCard title="PostgresSQL" image_path="images/skills/PostgresSQL.svg"/>
-                      <SkillCard title="MongoDB" image_path="images/skills/MongoDB.svg"/>
-                      <SkillCard title="Java" image_path="images/skills/Java.svg"/>
+                    <div id="about-main" className="flex lg:flex-row md:flex-col p-10 gap-10 justify-center items-center">
+                        <div id="about-details" className="flex items-center justify-center gap-5">
+                            <Image
+                                className="rounded-4xl"
+                                src="/images/portait.jpg"
+                                width={150}
+                                height={0}
+                                alt="A picture of me!"
+                            />
+                            <p className="max-w-100">
+                                I'm Ellis, A Second-year Software Engineering
+                                student at Manchester Metropolitan University
+                                seeking a placement starting Summer 2026.
+                                Experience in leading a six-person team to
+                                deliver a full-stack finance tracker using
+                                React, ExpressJS and NodeJS. Proficient in Java,
+                                JavaScript/TypeScript, React, and Next.js, with
+                                developing skills in Vue.js. Passionate about
+                                all aspects of programming, including building
+                                robust systems and impactful web applications.
+                            </p>
+                        </div>
+                        <div
+                            id="skills"
+                            className="flex mt-10 gap-10 justify-center"
+                        >
+                            <div id="row-1" className="flex flex-col gap-3">
+                                <SkillCard
+                                    title="JavaScript"
+                                    image_path="images/skills/JavaScript.svg"
+                                />
+                                <SkillCard
+                                    title="TypeScript"
+                                    image_path="images/skills/TypeScript.svg"
+                                />
+                                <SkillCard
+                                    title="CSS3"
+                                    image_path="images/skills/CSS3.svg"
+                                />
+                                <SkillCard
+                                    title="HTML5"
+                                    image_path="images/skills/HTML5.svg"
+                                />
+                            </div>
+                            <div id="row-2" className="flex flex-col gap-3">
+                                <SkillCard
+                                    title="React.js"
+                                    image_path="images/skills/React.svg"
+                                />
+                                <SkillCard
+                                    title="Next.js"
+                                    image_path="images/skills/Next.js.svg"
+                                />
+                                <SkillCard
+                                    title="Node.js"
+                                    image_path="images/skills/Node.js.svg"
+                                />
+                                <SkillCard
+                                    title="Express.js"
+                                    image_path="images/skills/Express.svg"
+                                />
+                            </div>
+                            <div id="row-3" className="flex flex-col gap-3">
+                                <SkillCard
+                                    title="TailwindCSS"
+                                    image_path="images/skills/Tailwind CSS.svg"
+                                />
+                                <SkillCard
+                                    title="PostgresSQL"
+                                    image_path="images/skills/PostgresSQL.svg"
+                                />
+                                <SkillCard
+                                    title="MongoDB"
+                                    image_path="images/skills/MongoDB.svg"
+                                />
+                                <SkillCard
+                                    title="Java"
+                                    image_path="images/skills/Java.svg"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
