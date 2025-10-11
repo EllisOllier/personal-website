@@ -156,7 +156,7 @@ export default function Home() {
             </section>
             <section id="projects">
                 <div id="projects-title">
-                    <h2 className="text-6xl">Projects</h2>
+                    <h2 className="text-6xl text-center py-5">Projects</h2>
                 </div>
                 <div id="project-cards">
                     <ProjectCard
@@ -165,35 +165,35 @@ export default function Home() {
                         description="A Finance Tracker for Students created as part of
                             the Team Project module during the 1st year of the
                             Software Engineering degree."
-                        demo_link="https://github.com/EllisOllier"
+                        demo_link=""
                         repo_link="https://github.com/EllisOllier/finance-tracker-students"
                     />
                     <ProjectCard
                         id="project-two"
                         title="DevBuddy"
                         description="DevBuddy is a vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
-                        demo_link="https://github.com/EllisOllier"
+                        demo_link=""
                         repo_link="https://github.com/EllisOllier/devbuddy"
                     />
                     <ProjectCard
                         id="project-three"
                         title="Green Computing"
                         description="A Next.JS website created to educate people about Green Computing which was created as part of Industrial & Community Engagement unit for university."
-                        demo_link="https://github.com/EllisOllier"
+                        demo_link=""
                         repo_link="https://github.com/EllisOllier/green-computing"
                     />
                     <ProjectCard
                         id="project-four"
                         title="Dungeon Game"
                         description="Based on the Masato Uesugi’s Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
-                        demo_link="https://github.com/EllisOllier"
+                        demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                     />
                     <ProjectCard
                         id="project-five"
                         title="Personal Webite"
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."
-                        demo_link="https://www.ellisollier.com/"
+                        demo_link=""
                         repo_link="https://github.com/EllisOllier/personal-website"
                     />
                 </div>
