@@ -188,7 +188,7 @@ export default function Home() {
                     <ProjectCard
                         id="project-four"
                         title="Dungeon Game"
-                        description="Based on the Masato Uesugi’s Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
+                        description="Based on the Masato Uesugi's Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                         image_path="/images/projects/dungeon-game.png"
