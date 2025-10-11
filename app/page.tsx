@@ -175,7 +175,7 @@ export default function Home() {
                         description="DevBuddy is a vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/devbuddy"
-                        image_path=""
+                        image_path="/images/projects/devbuddy.png"
                     />
                     <ProjectCard
                         id="project-three"
