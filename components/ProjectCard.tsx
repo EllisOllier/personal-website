@@ -11,7 +11,7 @@ export default function ProjectCard({id, title, description, demo_link, repo_lin
         <div id={id} className="border-2 border-white">
             <h2>{title}</h2>
             <p>{description}</p>
-            <a href={demo_link}>Demo</a>
+            <a href={demo_link}>{demo_link ? "Demo" : "Demo Coming Soon"}</a>
             <a href={repo_link}>GitHub Repository</a>
         </div>
     )
