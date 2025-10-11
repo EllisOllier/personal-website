@@ -2,13 +2,19 @@
 import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 import ProjectCard from "@/components/ProjectCard";
+import SkillCard from "@/components/SkillCard";
 
 export default function Home() {
     return (
         <div className="text-white bg-gray-900 h-full flex flex-col">
-            <header className="flex gap-10 p-4 border-2 border-white text-white">
-                <div id="header-title">
-                    <h1 className="">Ellis Ollier</h1>
+            <header className="fixed backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
+                <div id="header-title" className="">
+                    <Image
+                        src={"/images/logo.svg"}
+                        width={32}
+                        height={32}
+                        alt="Website Logo"
+                    />
                 </div>
                 <div id="section-links" className="">
                     <ul className="flex gap-5">
@@ -22,7 +28,7 @@ export default function Home() {
                             <a href="#contact">Contact</a>
                         </li>
                         <li>
-                          <a href="/blog">Blog</a>
+                            <a href="/blog">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -59,50 +65,53 @@ export default function Home() {
                     </ul>
                 </div>
             </header>
-            <section id="about" className="flex flex-col">
-                <div id="about-title">
-                    <h2 className="text-6xl">About</h2>
-                    <Image
-                        className="rounded-4xl"
-                        src="/images/portait.jpg"
-                        width={100}
-                        height={100}
-                        alt="A picture of me!"
-                    />
+            <section id="about" className="flex flex-col py-20">
+                <div>
+                    <div id="about-title">
+                        <h2 className="text-6xl text-center py-5">About</h2>
+                        <Image
+                            className="rounded-4xl"
+                            src="/images/portait.jpg"
+                            width={100}
+                            height={100}
+                            alt="A picture of me!"
+                        />
+                    </div>
+                    <div id="about-details">
+                        <p className="">
+                            Second-year BSc (Hons) Software Engineering student
+                            at Manchester Metropolitan University seeking a
+                            12-month Software / Full-Stack / Java Developer /
+                            Back-End placement starting summer 2026. Experience
+                            in leading a six-person team to deliver a full-stack
+                            finance tracker using React, ExpressJS and NodeJS.
+                            Proficient in Java, JavaScript/TypeScript, React,
+                            and Next.js, with developing skills in Vue.js.
+                            Passionate about all aspects of programming,
+                            including building robust systems and impactful web
+                            applications.
+                        </p>
+                    </div>
                 </div>
-                <div id="about-details">
-                    <p className="">
-                        Second-year BSc (Hons) Software Engineering student at
-                        Manchester Metropolitan University seeking a 12-month
-                        Software / Full-Stack / Java Developer / Back-End
-                        placement starting summer 2026. Experience in leading a
-                        six-person team to deliver a full-stack finance tracker
-                        using React, ExpressJS and NodeJS. Proficient in Java,
-                        JavaScript/TypeScript, React, and Next.js, with
-                        developing skills in Vue.js. Passionate about all
-                        aspects of programming, including building robust
-                        systems and impactful web applications.
-                    </p>
-                </div>
-                <div id="skills">
-                    <div id="row-1"></div>
-                    <div id="row-2"></div>
-                    <div id="row-3"></div>
-
-                    <h3>Temp skills list:</h3>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>CSS</li>
-                        <li>HTML5</li>
-                        <li>ReactJS</li>
-                        <li>NextJS</li>
-                        <li>NodeJS</li>
-                        <li>ExpressJS</li>
-                        <li>TailWindCSS</li>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                    </ul>
+                <div id="skills" className="flex mt-10 gap-10 justify-center">
+                    <div id="row-1" className="flex flex-col gap-3">
+                      <SkillCard title="JavaScript" image_path="images/skills/JavaScript.svg"/>
+                      <SkillCard title="TypeScript" image_path="images/skills/TypeScript.svg"/>
+                      <SkillCard title="CSS3" image_path="images/skills/CSS3.svg" />
+                      <SkillCard title="HTML5" image_path="images/skills/HTML5.svg"/>
+                    </div>
+                    <div id="row-2" className="flex flex-col gap-3">
+                      <SkillCard title="React.js" image_path="images/skills/React.svg"/>
+                      <SkillCard title="Next.js" image_path="images/skills/Next.js.svg"/> 
+                      <SkillCard title="Node.js" image_path="images/skills/Node.js.svg"/>
+                      <SkillCard title="Express.js" image_path="images/skills/Express.svg"/>
+                    </div>
+                    <div id="row-3" className="flex flex-col gap-3">
+                      <SkillCard title="TailwindCSS" image_path="images/skills/Tailwind CSS.svg"/>
+                      <SkillCard title="PostgresSQL" image_path="images/skills/PostgresSQL.svg"/>
+                      <SkillCard title="MongoDB" image_path="images/skills/MongoDB.svg"/>
+                      <SkillCard title="Java" image_path="images/skills/Java.svg"/>
+                    </div>
                 </div>
             </section>
             <section id="projects">
@@ -140,7 +149,7 @@ export default function Home() {
                         demo_link="https://github.com/EllisOllier"
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                     />
-                    <ProjectCard 
+                    <ProjectCard
                         id="project-five"
                         title="Personal Webite"
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."

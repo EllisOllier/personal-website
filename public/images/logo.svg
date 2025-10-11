@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29165 132.29165"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">Personal Portfolio Image</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.50835205"
+     inkscape:cx="360.97032"
+     inkscape:cy="164.25625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill-opacity:0;stroke:#000000;stroke-width:19.8438"
+       d="m 41.145833,11.145833 h 50 c 16.619997,0 29.999997,13.38 29.999997,30 v 50 c 0,16.619997 -13.38,29.999997 -29.999997,29.999997 h -50 c -16.62,0 -30,-13.38 -30,-29.999997 v -50 c 0,-16.62 13.38,-30 30,-30 z" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:19.8438;stroke-dasharray:none;stroke-opacity:1"
+       x="57.251991"
+       y="62.977192"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:19.8438;stroke:none;fill:#000000;fill-opacity:1"
+         x="57.251991"
+         y="62.977192" /></text>
+    <path
+       style="font-size:194.986px;font-family:'Print Bold';-inkscape-font-specification:'Print Bold, ';stroke-width:43.872"
+       d="m 66.145834,31.145845 c -19.108627,0 -32.757647,16.963781 -32.757647,34.902493 0,18.133697 13.64902,35.097482 32.757647,35.097482 11.114202,0 22.423389,-4.874653 28.077983,-15.013925 0.389972,-0.779944 0.97493,-1.754874 0.97493,-3.119776 0,-3.314762 -2.729804,-6.044566 -6.239552,-6.044566 -1.94986,0 -3.704734,1.169916 -5.069636,2.92479 -4.289691,6.044566 -10.139271,8.969356 -17.743725,8.969356 -9.7493,0 -17.158767,-7.214482 -19.498599,-16.573809 h 46.016694 c 3.314762,0 6.239552,-2.729804 6.239552,-6.239552 0,-17.938712 -13.64902,-34.902493 -32.757647,-34.902493 z M 46.647235,60.003772 c 2.534818,-8.969356 9.944285,-16.573809 19.498599,-16.573809 9.7493,0 17.158767,7.604453 19.498599,16.573809 z"
+       id="text2"
+       aria-label="e" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Personal Portfolio Image</dc:title>
+        <dc:date>11/04/2025</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Ellis Ollier</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
