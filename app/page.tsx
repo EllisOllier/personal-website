@@ -191,7 +191,7 @@ export default function Home() {
                         description="Based on the Masato Uesugi’s Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
-                        image_path=""
+                        image_path="/images/projects/dungeon-game.png"
                     />
                     <ProjectCard
                         id="project-five"
@@ -199,7 +199,7 @@ export default function Home() {
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/personal-website"
-                        image_path=""
+                        image_path="/images/projects/personal-website.png"
                     />
                 </div>
             </section>
