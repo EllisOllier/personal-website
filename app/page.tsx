@@ -140,6 +140,13 @@ export default function Home() {
                         demo_link="https://github.com/EllisOllier"
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                     />
+                    <ProjectCard 
+                        id="project-five"
+                        title="Personal Webite"
+                        description="A website created using Next.js in order to give details about who I am, what I do and what I know."
+                        demo_link="https://www.ellisollier.com/"
+                        repo_link="https://github.com/EllisOllier/personal-website"
+                    />
                 </div>
             </section>
             <section id="contact">
