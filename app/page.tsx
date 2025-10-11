@@ -167,6 +167,7 @@ export default function Home() {
                             Software Engineering degree."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/finance-tracker-students"
+                        image_path="/images/projects/finance-tracker.png"
                     />
                     <ProjectCard
                         id="project-two"
@@ -174,6 +175,7 @@ export default function Home() {
                         description="DevBuddy is a vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/devbuddy"
+                        image_path=""
                     />
                     <ProjectCard
                         id="project-three"
@@ -181,6 +183,7 @@ export default function Home() {
                         description="A Next.JS website created to educate people about Green Computing which was created as part of Industrial & Community Engagement unit for university."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/green-computing"
+                        image_path=""
                     />
                     <ProjectCard
                         id="project-four"
@@ -188,6 +191,7 @@ export default function Home() {
                         description="Based on the Masato Uesugi’s Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
+                        image_path=""
                     />
                     <ProjectCard
                         id="project-five"
@@ -195,6 +199,7 @@ export default function Home() {
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/personal-website"
+                        image_path=""
                     />
                 </div>
             </section>
