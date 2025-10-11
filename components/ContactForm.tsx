@@ -12,7 +12,7 @@ export default function ContactForm() {
                 <label>Message</label>
                 <input type="text"></input>
                 
-                <input type="submit" value={"Submit"}></input>
+                <input type="submit" value={"Submit"} className="text-xl bg-green-500 w-full p-2 text-center rounded-sm"></input>
             </form>
         </div>
     );
