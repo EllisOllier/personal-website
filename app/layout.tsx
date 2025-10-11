@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ellis Ollier | Under Construction",
+  title: "Ellis Ollier",
   description: "A personal portfolio website for Ellis Ollier featuring a blog and project showcase.",
 };
 
