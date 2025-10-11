@@ -21,6 +21,9 @@ export default function Home() {
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <li>
+                          <a href="/blog">Blog</a>
+                        </li>
                     </ul>
                 </div>
                 <div id="social-links">
