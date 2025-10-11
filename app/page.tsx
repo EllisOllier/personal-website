@@ -1,11 +1,11 @@
 // Development Branch
-
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
     return (
-        <div className="text-white bg-gray-900 h-screen flex flex-col">
+        <div className="text-white bg-gray-900 h-full flex flex-col">
             <header className="flex gap-10 p-4 border-2 border-white text-white">
                 <div id="header-title">
                     <h1 className="">Ellis Ollier</h1>
@@ -30,7 +30,13 @@ export default function Home() {
                                 href="https://github.com/EllisOllier"
                                 target="_blank"
                             >
-                                GitHub
+                                <Image
+                                    className=""
+                                    src="/images/github.png"
+                                    width={32}
+                                    height={32}
+                                    alt="A picture of me!"
+                                />
                             </a>
                         </li>
                         <li>
@@ -38,7 +44,13 @@ export default function Home() {
                                 href="https://www.linkedin.com/in/ellisollier/"
                                 target="_blank"
                             >
-                                LinkedIn
+                                <Image
+                                    className=""
+                                    src="/images/linkedin.png"
+                                    width={34}
+                                    height={34}
+                                    alt="A picture of me!"
+                                />
                             </a>
                         </li>
                     </ul>
@@ -47,6 +59,13 @@ export default function Home() {
             <section id="about" className="flex flex-col">
                 <div id="about-title">
                     <h2 className="text-6xl">About</h2>
+                    <Image
+                        className="rounded-4xl"
+                        src="/images/portait.jpg"
+                        width={100}
+                        height={100}
+                        alt="A picture of me!"
+                    />
                 </div>
                 <div id="about-details">
                     <p className="">
@@ -63,9 +82,24 @@ export default function Home() {
                     </p>
                 </div>
                 <div id="skills">
-                  <div id="row-1"></div>
-                  <div id="row-2"></div>
-                  <div id="row-3"></div>
+                    <div id="row-1"></div>
+                    <div id="row-2"></div>
+                    <div id="row-3"></div>
+
+                    <h3>Temp skills list:</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>CSS</li>
+                        <li>HTML5</li>
+                        <li>ReactJS</li>
+                        <li>NextJS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>TailWindCSS</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
                 </div>
             </section>
             <section id="projects">
@@ -108,6 +142,40 @@ export default function Home() {
             <section id="contact">
                 <ContactForm />
             </section>
+            <footer id="footer" className="p-5">
+                <div id="social-links">
+                    <ul className="flex justify-center gap-5">
+                        <li>
+                            <a
+                                href="https://github.com/EllisOllier"
+                                target="_blank"
+                            >
+                                <Image
+                                    className=""
+                                    src="/images/github.png"
+                                    width={32}
+                                    height={32}
+                                    alt="A picture of me!"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/ellisollier/"
+                                target="_blank"
+                            >
+                                <Image
+                                    className=""
+                                    src="/images/linkedin.png"
+                                    width={34}
+                                    height={34}
+                                    alt="A picture of me!"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     );
 }
