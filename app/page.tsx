@@ -158,8 +158,9 @@ export default function Home() {
                 <div id="projects-title">
                     <h2 className="text-6xl text-center py-5">Projects</h2>
                 </div>
-                <div id="project-cards">
+                <div id="project-cards" className="flex flex-col gap-8 relative">
                     <ProjectCard
+                        classes="justify-start"
                         id="project-one"
                         title="Finance Tracker for Students"
                         description="A Finance Tracker for Students created as part of
@@ -170,6 +171,7 @@ export default function Home() {
                         image_path="/images/projects/finance-tracker.png"
                     />
                     <ProjectCard
+                        classes="justify-end"
                         id="project-two"
                         title="DevBuddy"
                         description="DevBuddy is a vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
@@ -178,6 +180,7 @@ export default function Home() {
                         image_path="/images/projects/devbuddy.png"
                     />
                     <ProjectCard
+                        classes="justify-start"
                         id="project-three"
                         title="Green Computing"
                         description="A Next.JS website created to educate people about Green Computing which was created as part of Industrial & Community Engagement unit for university."
@@ -186,6 +189,7 @@ export default function Home() {
                         image_path="/images/projects/green-computing.png"
                     />
                     <ProjectCard
+                        classes="justify-end"
                         id="project-four"
                         title="Dungeon Game"
                         description="Based on the Masato Uesugi's Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
@@ -194,10 +198,11 @@ export default function Home() {
                         image_path="/images/projects/dungeon-game.png"
                     />
                     <ProjectCard
+                        classes="justify-start"
                         id="project-five"
                         title="Personal Webite"
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."
-                        demo_link=""
+                        demo_link="https://www.ellisollier.com/"
                         repo_link="https://github.com/EllisOllier/personal-website"
                         image_path="/images/projects/personal-website.png"
                     />
