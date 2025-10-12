@@ -8,9 +8,10 @@ import Link from "next/link";
 export default function Home() {
     return (
         <div className="text-white bg-gray-900 h-full flex flex-col">
-            <header className="fixed z-20 backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
+            <header className="gap-3 fixed z-20 backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center md:gap-10 p-4 border-1 border-gray-700 text-white">
                 <div id="header-title" className="">
                     <Image
+                        className="min-w-[32px] min-h-[32px]"
                         src={"/images/logo-white.svg"}
                         width={32}
                         height={32}
@@ -18,7 +19,7 @@ export default function Home() {
                     />
                 </div>
                 <div id="section-links" className="">
-                    <ul className="flex gap-5">
+                    <ul className="flex gap-2 md:gap-5">
                         <li>
                             <Link href={"#about"}>About</Link>
                         </li>
@@ -34,43 +35,43 @@ export default function Home() {
                     </ul>
                 </div>
                 <div id="social-links">
-                    <ul className="flex gap-5">
+                    <ul className="inline-flex gap-1 md:gap-5 items-center">
                         <li>
                             <Link
                                 href={"https://github.com/EllisOllier"}
                                 target="_blank"
                             >
                                 <Image
-                                    className=""
-                                    src="/images/github.png"
+                                    className="min-w-[32px] min-h-[32px]"
+                                    src="/images/GitHub.svg"
                                     width={32}
                                     height={32}
-                                    alt="A picture of me!"
+                                    alt="GitHub"
                                 />
                             </Link>
                         </li>
                         <li>
                             <Link href={"https://www.linkedin.com/in/ellisollier/"} target="_blank">
                                 <Image
-                                    className=""
-                                    src="/images/linkedin.png"
+                                    className="min-w-[34px] min-h-[34px]"
+                                    src="/images/LinkedIn.svg"
                                     width={34}
                                     height={34}
-                                    alt="A picture of me!"
+                                    alt="LinkedIn"
                                 />
                             </Link>
                         </li>
                     </ul>
                 </div>
             </header>
-            <section id="about" className="flex flex-col py-20">
+            <section id="about" className="flex flex-col py-20 pt-24 md:pt-28">
                 <div>
                     <div id="about-title">
                         <h2 className="text-6xl text-center py-5">About</h2>
                     </div>
                     <div
                         id="about-main"
-                        className="flex lg:flex-row md:flex-col p-10 gap-10 justify-center items-center"
+                        className="flex flex-col lg:flex-row p-10 gap-10 justify-center items-center"
                     >
                         <div
                             id="about-details"
@@ -98,7 +99,7 @@ export default function Home() {
                         </div>
                         <div
                             id="skills"
-                            className="flex mt-10 gap-10 justify-center"
+                            className="flex mt-10 gap-2 md:gap-10 justify-center"
                         >
                             <div id="row-1" className="flex flex-col gap-3">
                                 <SkillCard
@@ -261,8 +262,8 @@ export default function Home() {
             </section>
             <section id="contact" className="p-5 flex flex-col justify-center items-center">
                 {/* Removed Contact Form, Need to add */}
-                <h2 className="text-4xl">Contact Form Coming Soon!</h2>
-                <p>Contact me on linkedIn in the mean time!</p>
+                <h2 className="text-4xl text-center">Contact Form Coming Soon!</h2>
+                <p className="text-center">Contact me on linkedIn in the mean time!</p>
             </section>
             <footer
                 id="footer"

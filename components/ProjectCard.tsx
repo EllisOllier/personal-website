@@ -30,14 +30,17 @@ export default function ProjectCard({
                         <h2 className="text-2xl mb-5">{title}</h2>
                         <p>{description}</p>
                     </div>
-                    <div id="image-container" className="pl-10">
+                    <div
+                        id="image-container"
+                        className="pl-4 w-full max-w-[180px] sm:max-w-[240px] md:max-w-[320px] lg:max-w-[400px] hidden sm:block"
+                    >
                         {image_path ? (
                             <Image
-                                className="rounded-xl"
+                                className="rounded-xl w-full h-auto"
                                 src={image_path}
                                 width={600}
                                 height={600}
-                                alt="Test"
+                                alt={title}
                             />
                         ) : null}
                     </div>
