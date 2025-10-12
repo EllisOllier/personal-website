@@ -1,6 +1,4 @@
-// Development Branch
 import Image from "next/image";
-//import ContactForm from "@/components/ContactForm"; // Need to work on it first
 import ProjectCard from "@/components/ProjectCard";
 import SkillCard from "@/components/SkillCard";
 import Link from "next/link";
