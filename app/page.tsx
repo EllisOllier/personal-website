@@ -169,6 +169,14 @@ export default function Home() {
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/finance-tracker-students"
                         image_path="/images/projects/finance-tracker.png"
+                        tech_svgs={[
+                            { src: "/images/skills/React.svg", alt: "React"},
+                            { src: "/images/skills/CSS3.svg", alt: "CSS3"},
+                            { src: "/images/skills/Node.js.svg", alt: "Node.js"},
+                            { src: "/images/skills/Express.svg", alt: "Express.js"},
+                            { src: "/images/skills/PostgresSQL.svg", alt: "PostgresSQL"}
+
+                        ]}
                     />
                     <ProjectCard
                         classes="justify-end"
@@ -178,6 +186,9 @@ export default function Home() {
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/devbuddy"
                         image_path="/images/projects/devbuddy.png"
+                        tech_svgs={[
+                            { src: "/images/skills/Java.svg", alt:"Java"},
+                        ]}
                     />
                     <ProjectCard
                         classes="justify-start"
@@ -187,6 +198,10 @@ export default function Home() {
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/green-computing"
                         image_path="/images/projects/green-computing.png"
+                        tech_svgs={[
+                            {src: "/images/skills/Next.js.svg", alt: "Next.js"},
+                            {src: "/images/skills/Tailwind CSS.svg", alt: "Tailwind CSS"},
+                        ]}
                     />
                     <ProjectCard
                         classes="justify-end"
@@ -196,6 +211,9 @@ export default function Home() {
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                         image_path="/images/projects/dungeon-game.png"
+                        tech_svgs={[
+                            { src: "/images/skills/Java.svg", alt:"Java"},
+                        ]}
                     />
                     <ProjectCard
                         classes="justify-start"
@@ -205,6 +223,12 @@ export default function Home() {
                         demo_link="https://www.ellisollier.com/"
                         repo_link="https://github.com/EllisOllier/personal-website"
                         image_path="/images/projects/personal-website.png"
+                        tech_svgs={[
+                            {src: "/images/skills/Next.js.svg", alt: "Next.js"},
+                            {src: "/images/skills/Tailwind CSS.svg", alt: "Tailwind CSS"},
+                            {src: "/images/skills/TypeScript.svg", alt: "TypeScript"},
+                            
+                        ]}
                     />
                 </div>
             </section>
