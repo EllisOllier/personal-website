@@ -57,12 +57,11 @@ export default function ProjectCard({
                                     />
                                 ))}
                     </div>
-                    <div id="project-links" className="flex gap-10">
+                    <div id="project-links" className="flex gap-10 pt-3">
+                        <a href={repo_link} className="">GitHub Repository</a>
                         {demo_link ? (
                             <a href={demo_link}>{"Demo"}</a>
                         ) : null}
-
-                        <a href={repo_link}>GitHub Repository</a>
                     </div>
                 </div>
             </div>
