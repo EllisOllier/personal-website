@@ -10,7 +10,7 @@ export default function Home() {
             <header className="fixed backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
                 <div id="header-title" className="">
                     <Image
-                        src={"/images/logo.svg"}
+                        src={"/images/logo-white.svg"}
                         width={32}
                         height={32}
                         alt="Website Logo"
