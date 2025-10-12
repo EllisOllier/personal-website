@@ -3,6 +3,7 @@ import Image from "next/image";
 import ContactForm from "@/components/ContactForm"; // Need to work on it first
 import ProjectCard from "@/components/ProjectCard";
 import SkillCard from "@/components/SkillCard";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -19,24 +20,24 @@ export default function Home() {
                 <div id="section-links" className="">
                     <ul className="flex gap-5">
                         <li>
-                            <a href="#about">About</a>
+                            <Link href={"#about"}>About</Link>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <Link href={"#projects"}>Projects</Link>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <Link href={"#contact"}>Contact</Link>
                         </li>
                         <li>
-                            <a href="/blog">Blog</a>
+                            <Link href={"/blog"}>Blog</Link>
                         </li>
                     </ul>
                 </div>
                 <div id="social-links">
                     <ul className="flex gap-5">
                         <li>
-                            <a
-                                href="https://github.com/EllisOllier"
+                            <Link
+                                href={"https://github.com/EllisOllier"}
                                 target="_blank"
                             >
                                 <Image
@@ -46,13 +47,10 @@ export default function Home() {
                                     height={32}
                                     alt="A picture of me!"
                                 />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="https://www.linkedin.com/in/ellisollier/"
-                                target="_blank"
-                            >
+                            <Link href={"https://www.linkedin.com/in/ellisollier/"} target="_blank">
                                 <Image
                                     className=""
                                     src="/images/linkedin.png"
@@ -60,7 +58,7 @@ export default function Home() {
                                     height={34}
                                     alt="A picture of me!"
                                 />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -70,8 +68,14 @@ export default function Home() {
                     <div id="about-title">
                         <h2 className="text-6xl text-center py-5">About</h2>
                     </div>
-                    <div id="about-main" className="flex lg:flex-row md:flex-col p-10 gap-10 justify-center items-center">
-                        <div id="about-details" className="flex items-center justify-center gap-5">
+                    <div
+                        id="about-main"
+                        className="flex lg:flex-row md:flex-col p-10 gap-10 justify-center items-center"
+                    >
+                        <div
+                            id="about-details"
+                            className="flex items-center justify-center gap-5"
+                        >
                             <Image
                                 className="rounded-4xl"
                                 src="/images/portait.jpg"
@@ -158,7 +162,10 @@ export default function Home() {
                 <div id="projects-title">
                     <h2 className="text-6xl text-center py-5">Projects</h2>
                 </div>
-                <div id="project-cards" className="flex flex-col gap-8 relative">
+                <div
+                    id="project-cards"
+                    className="flex flex-col gap-8 relative"
+                >
                     <ProjectCard
                         classes="justify-start"
                         id="project-one"
@@ -170,12 +177,20 @@ export default function Home() {
                         repo_link="https://github.com/EllisOllier/finance-tracker-students"
                         image_path="/images/projects/finance-tracker.png"
                         tech_svgs={[
-                            { src: "/images/skills/React.svg", alt: "React"},
-                            { src: "/images/skills/CSS3.svg", alt: "CSS3"},
-                            { src: "/images/skills/Node.js.svg", alt: "Node.js"},
-                            { src: "/images/skills/Express.svg", alt: "Express.js"},
-                            { src: "/images/skills/PostgresSQL.svg", alt: "PostgresSQL"}
-
+                            { src: "/images/skills/React.svg", alt: "React" },
+                            { src: "/images/skills/CSS3.svg", alt: "CSS3" },
+                            {
+                                src: "/images/skills/Node.js.svg",
+                                alt: "Node.js",
+                            },
+                            {
+                                src: "/images/skills/Express.svg",
+                                alt: "Express.js",
+                            },
+                            {
+                                src: "/images/skills/PostgresSQL.svg",
+                                alt: "PostgresSQL",
+                            },
                         ]}
                     />
                     <ProjectCard
@@ -186,7 +201,7 @@ export default function Home() {
                         repo_link="https://github.com/EllisOllier/devbuddy"
                         image_path="/images/projects/devbuddy.png"
                         tech_svgs={[
-                            { src: "/images/skills/Java.svg", alt:"Java"},
+                            { src: "/images/skills/Java.svg", alt: "Java" },
                         ]}
                     />
                     <ProjectCard
@@ -198,8 +213,14 @@ export default function Home() {
                         repo_link="https://github.com/EllisOllier/green-computing"
                         image_path="/images/projects/green-computing.png"
                         tech_svgs={[
-                            {src: "/images/skills/Next.js.svg", alt: "Next.js"},
-                            {src: "/images/skills/Tailwind CSS.svg", alt: "Tailwind CSS"},
+                            {
+                                src: "/images/skills/Next.js.svg",
+                                alt: "Next.js",
+                            },
+                            {
+                                src: "/images/skills/Tailwind CSS.svg",
+                                alt: "Tailwind CSS",
+                            },
                         ]}
                     />
                     <ProjectCard
@@ -211,7 +232,7 @@ export default function Home() {
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                         image_path="/images/projects/dungeon-game.png"
                         tech_svgs={[
-                            { src: "/images/skills/Java.svg", alt:"Java"},
+                            { src: "/images/skills/Java.svg", alt: "Java" },
                         ]}
                     />
                     <ProjectCard
@@ -222,23 +243,36 @@ export default function Home() {
                         repo_link="https://github.com/EllisOllier/personal-website"
                         image_path="/images/projects/personal-website.png"
                         tech_svgs={[
-                            {src: "/images/skills/Next.js.svg", alt: "Next.js"},
-                            {src: "/images/skills/Tailwind CSS.svg", alt: "Tailwind CSS"},
-                            {src: "/images/skills/TypeScript.svg", alt: "TypeScript"},
-                            
+                            {
+                                src: "/images/skills/Next.js.svg",
+                                alt: "Next.js",
+                            },
+                            {
+                                src: "/images/skills/Tailwind CSS.svg",
+                                alt: "Tailwind CSS",
+                            },
+                            {
+                                src: "/images/skills/TypeScript.svg",
+                                alt: "TypeScript",
+                            },
                         ]}
                     />
                 </div>
             </section>
-            <section id="contact">
-                { /* Removed Contact Form, Need to add */}
+            <section id="contact" className="p-5 flex flex-col justify-center items-center">
+                {/* Removed Contact Form, Need to add */}
+                <h2 className="text-4xl">Contact Form Coming Soon!</h2>
+                <p>Contact me on linkedIn in the mean time!</p>
             </section>
-            <footer id="footer" className="backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
+            <footer
+                id="footer"
+                className="backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white"
+            >
                 <div id="social-links">
                     <ul className="flex justify-center gap-5">
                         <li>
-                            <a
-                                href="https://github.com/EllisOllier"
+                            <Link
+                                href={"https://github.com/EllisOllier"}
                                 target="_blank"
                             >
                                 <Image
@@ -248,13 +282,10 @@ export default function Home() {
                                     height={32}
                                     alt="A picture of me!"
                                 />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="https://www.linkedin.com/in/ellisollier/"
-                                target="_blank"
-                            >
+                            <Link href={"https://www.linkedin.com/in/ellisollier/"} target="_blank">
                                 <Image
                                     className=""
                                     src="/images/linkedin.png"
@@ -262,7 +293,7 @@ export default function Home() {
                                     height={34}
                                     alt="A picture of me!"
                                 />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
