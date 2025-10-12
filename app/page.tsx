@@ -7,7 +7,7 @@ import SkillCard from "@/components/SkillCard";
 export default function Home() {
     return (
         <div className="text-white bg-gray-900 h-full flex flex-col">
-            <header className="fixed backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
+            <header className="fixed z-20 backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
                 <div id="header-title" className="">
                     <Image
                         src={"/images/logo-white.svg"}
@@ -163,7 +163,7 @@ export default function Home() {
                         classes="justify-start"
                         id="project-one"
                         title="Finance Tracker for Students"
-                        description="A Finance Tracker for Students created as part of
+                        description="A full-stack react app created as part of
                             the Team Project module during the 1st year of the
                             Software Engineering degree."
                         demo_link=""
@@ -182,8 +182,7 @@ export default function Home() {
                         classes="justify-end"
                         id="project-two"
                         title="DevBuddy"
-                        description="DevBuddy is a vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
-                        demo_link=""
+                        description="A vanilla Java command-line interface designed to simplify project creation and version control. It offers straightforward and easy-to-remember commands."
                         repo_link="https://github.com/EllisOllier/devbuddy"
                         image_path="/images/projects/devbuddy.png"
                         tech_svgs={[
@@ -207,7 +206,7 @@ export default function Home() {
                         classes="justify-end"
                         id="project-four"
                         title="Dungeon Game"
-                        description="Based on the Masato Uesugi's Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
+                        description="A simple CLI game based on the Masato Uesugi's Welcome to the Dungeon and completed as part of a Advanced Programming lab session."
                         demo_link=""
                         repo_link="https://github.com/EllisOllier/dungeon-game"
                         image_path="/images/projects/dungeon-game.png"
@@ -220,7 +219,6 @@ export default function Home() {
                         id="project-five"
                         title="Personal Webite"
                         description="A website created using Next.js in order to give details about who I am, what I do and what I know."
-                        demo_link="https://www.ellisollier.com/"
                         repo_link="https://github.com/EllisOllier/personal-website"
                         image_path="/images/projects/personal-website.png"
                         tech_svgs={[
@@ -233,9 +231,9 @@ export default function Home() {
                 </div>
             </section>
             <section id="contact">
-                <ContactForm />
+                { /* Removed Contact Form, Need to add */}
             </section>
-            <footer id="footer" className="p-5">
+            <footer id="footer" className="backdrop-blur-xs rounded-md bg-gray-800/90 w-screen flex justify-center items-center gap-10 p-4 border-1 border-gray-700 text-white">
                 <div id="social-links">
                     <ul className="flex justify-center gap-5">
                         <li>
