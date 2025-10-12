@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type ProjectCardProps = {
     id: string;
@@ -58,9 +59,9 @@ export default function ProjectCard({
                                 ))}
                     </div>
                     <div id="project-links" className="flex gap-10 pt-3">
-                        <a href={repo_link} className="">GitHub Repository</a>
+                        <Link href={repo_link}>GitHub Repository</Link>
                         {demo_link ? (
-                            <a href={demo_link}>{"Demo"}</a>
+                            <Link href={demo_link}>Demo</Link>
                         ) : null}
                     </div>
                 </div>
