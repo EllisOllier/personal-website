@@ -83,7 +83,7 @@ export default function Home() {
                                 alt="A picture of me!"
                             />
                             <p className="max-w-100">
-                                I&aposm Ellis, A second-year Software Engineering
+                                I&apos;m Ellis, A second-year Software Engineering
                                 student at Manchester Metropolitan University
                                 seeking a placement starting Summer 2026.
                                 Experience in leading a six-person team to
